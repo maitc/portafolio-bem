@@ -1,4 +1,39 @@
 @import url("<link href='https://fonts.googleapis.com/css?family=Open+Sans:300,400,700' rel='stylesheet'>");
+.a-menu {
+  display: inline-block;
+  text-align: center !important;
+  padding: 11px 0;
+  width: 100%;
+  background-color: #F04949; }
+
+.a-menu__img {
+  width: 6%;
+  border-radius: 100px;
+  position: relative;
+  bottom: -8px; }
+
+.a-menu__ul {
+  display: inline-block;
+  margin: 0;
+  position: relative;
+  top: -26px; }
+
+.a-menu__item {
+  display: inline-block;
+  font-size: 15px;
+  font-weight: 300;
+  padding: 15px;
+  color: white;
+  list-style: none; }
+
+.a-menu__item__link {
+  color: white;
+  text-decoration: none; }
+  .a-menu__item__link:hover {
+    color: #203748;
+    text-decoration: none;
+    padding: 20px; }
+
 body {
   padding: 0;
   margin: 0;
