@@ -2,7 +2,7 @@
 .a-menu {
   display: inline-block;
   text-align: center !important;
-  padding: 11px 0;
+  padding: 6px 0;
   width: 100%;
   background-color: #F04949; }
 
@@ -18,7 +18,7 @@
   position: relative;
   top: -26px; }
 
-.a-menu__item {
+.a-menu__ul__item {
   display: inline-block;
   font-size: 15px;
   font-weight: 300;
@@ -26,13 +26,101 @@
   color: white;
   list-style: none; }
 
-.a-menu__item__link {
+.a-menu__ul__item__link {
   color: white;
   text-decoration: none; }
-  .a-menu__item__link:hover {
+  .a-menu__ul__item__link:hover {
     color: #203748;
     text-decoration: none;
     padding: 20px; }
+
+.profile {
+  background-color: #203748;
+  text-align: center !important;
+  height: 537px; }
+
+.profile__div__img {
+  width: 15%;
+  border-radius: 100px;
+  position: relative;
+  top: 32px;
+  right: -121px; }
+
+.profile__div__titulo {
+  display: inline-block;
+  position: relative;
+  bottom: 110px;
+  left: 174px;
+  color: #39D084; }
+
+.profile__div__subtitulo {
+  display: inline-block;
+  position: relative;
+  bottom: 73px;
+  right: 26px;
+  font-weight: 300;
+  color: white; }
+
+.profile__div__parrafo {
+  display: inline-block;
+  position: relative;
+  bottom: 34px;
+  left: -173px;
+  font-size: 15px;
+  color: white; }
+
+.profile__div__button {
+  display: inline-block;
+  position: relative;
+  top: 44px;
+  right: 320px;
+  padding: 15px;
+  background-color: #39D084;
+  color: white;
+  border-radius: 20px;
+  border: none; }
+
+.profile__redes__ul {
+  display: inline-block;
+  position: relative;
+  top: 67px;
+  left: 32px; }
+
+.profile__redes__ul__li {
+  display: inline-block;
+  list-style: none;
+  padding: 0 10px;
+  font-size: 35px; }
+
+.profile__redes__ul__li--facebook {
+  color: white; }
+  .profile__redes__ul__li--facebook:hover {
+    color: #4A66A0; }
+
+.profile__redes__ul__li--twitter {
+  color: white; }
+  .profile__redes__ul__li--twitter:hover {
+    color: #55ACEE; }
+
+.profile__redes__ul__li--google {
+  color: white; }
+  .profile__redes__ul__li--google:hover {
+    color: #E16050; }
+
+.profile__redes__ul__li--pinterest {
+  color: white; }
+  .profile__redes__ul__li--pinterest:hover {
+    color: #BD081C; }
+
+.profile__redes__ul__li--stum {
+  color: white; }
+  .profile__redes__ul__li--stum:hover {
+    color: #EB4823; }
+
+.profile__redes__ul__li--dribbble {
+  color: white; }
+  .profile__redes__ul__li--dribbble:hover {
+    color: #C32361; }
 
 body {
   padding: 0;
